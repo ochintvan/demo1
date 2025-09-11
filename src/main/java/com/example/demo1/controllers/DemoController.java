@@ -10,6 +10,6 @@ public class DemoController {
     @ResponseBody
     public String hello()
     {
-        return "Jai Swaminarayan";
+        return "Jai Swaminarayan1";
     }
 }
