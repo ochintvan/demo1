@@ -11,9 +11,9 @@ public class DemoRepository {
 
     public List<DemoModel> getDataFromDB(){
         DemoModel dm = new DemoModel();
-        dm.setMessage("Pramukh Swami Maharaj");
+        dm.setMessage("Pramukh Swami Maharaj.");
         DemoModel dm2 = new DemoModel();
-        dm2.setMessage("Mahant Swami Maharaj");
+        dm2.setMessage("Mahant Swami Maharaj.");
 
         List<DemoModel> listDemoModels = new ArrayList<>();
         listDemoModels.add(dm);
